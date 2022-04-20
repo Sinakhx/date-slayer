@@ -1,8 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run typecheck
-npm run lint-staged
-npm run build
+pnpm run typecheck
+pnpm run lint-staged
+pnpm run build
 git add dist/
 git add pnpm-lock.yaml

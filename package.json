@@ -1,17 +1,25 @@
 {
-    "name": "__LIB__NAME",
+    "name": "date-slayer",
     "version": "0.0.1",
-    "description": "__LIB__DESCRIPTION",
+    "description": "JS/TS Persian & Gregorian date utils",
     "keywords": [
-        "__LIB__KEYWORDS"
+        "date",
+        "utility",
+        "date-conversion",
+        "jalali",
+        "jalaali",
+        "gregorian",
+        "persian",
+        "hijri",
+        "shamsi"
     ],
-    "homepage": "https://github.com/Sinakhx/__LIB__NAME#readme",
+    "homepage": "https://github.com/Sinakhx/date-slayer#readme",
     "bugs": {
-        "url": "https://github.com/Sinakhx/__LIB__NAME/issues"
+        "url": "https://github.com/Sinakhx/date-slayer/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Sinakhx/__LIB__NAME.git"
+        "url": "git+https://github.com/Sinakhx/date-slayer.git"
     },
     "license": "MIT",
     "author": "Sina Khodabandehloo <khodabandehloo.sina@gmail.com>",
