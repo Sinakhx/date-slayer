@@ -1,1 +1,1 @@
-// exports from here
+export { getJalali } from './getJalali';
