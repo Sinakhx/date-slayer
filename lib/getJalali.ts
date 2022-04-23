@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { zeroPad, enDateFormat, enToFaNumber, JalaliMonths, JalaliMonthsEn, WeekDaysFa } from './utils';
+import { zeroPad, enToFaNumber, enDateFormat, JalaliMonths, JalaliMonthsEn, WeekDaysFa } from './utils';
 
 type TimeFormat = 'HH:mm' | 'HH:mm:ss' | 'hh:mm a' | 'hh:mm:ss a';
 

@@ -34,4 +34,19 @@ declare const getJalali: (date?: Date | number | string) => {
     };
 };
 
-export { getJalali };
+declare type DateObject = Readonly<{
+    year: number;
+    month: number;
+    day: number;
+    hours?: number;
+    minutes?: number;
+    seconds?: number;
+    milliseconds?: number;
+}>;
+declare const getGregorian: (jdate: Date | number | string | DateObject) => {
+    year: number;
+    month: number;
+    day: number;
+};
+
+export { getGregorian, getJalali };
